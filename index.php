@@ -14,3 +14,5 @@ require_once($yii);
 Yii::createWebApplication($config)->run();
 
 // echo(arg1)
+
+// echo(arg1)
