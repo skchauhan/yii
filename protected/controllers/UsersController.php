@@ -62,12 +62,7 @@ class UsersController extends Controller
 	 */
 	public function actionCreate()
 	{
-		// $helper = new Helper;
-		// echo Helper::tap();
-		$ttt = Yii::app()->myClass->get_my_info();
-
-		echo $ttt;
-		die();
+	
 		$model=new Users;
 
 		// Uncomment the following line if AJAX validation is needed

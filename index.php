@@ -13,4 +13,6 @@ require_once($yii);
 
 Yii::createWebApplication($config)->run();
 
+
+echo Yii::app()->baseurl; die();
 // echo(arg1111)
